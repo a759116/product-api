@@ -25,7 +25,7 @@
       }
     }
 - Test Update functionality
-  - Run the curl from a command prompt "curl -d '{"id": 13860421, "current_price": {"currency_code": "USD", "value": 54.99}}' -H "Content-Type: application/json" -X PUT http://localhost:8080/api/products/13860421"
+  - Run the curl from a command prompt "curl -d '{"id": 13860421, "name": "Revolutionary Girl Utena: Apocalypse Saga Collection (DVD)","current_price": {"currency_code": "USD", "value": 54.99}}' -H "Content-Type: application/json" -X PUT http://localhost:8080/api/products/13860421"
   - Open your browser and enter http://localhost:8080/api/products/13860421
 - Play more
   - Here are few more ids you can use to to update prices: 13860423, 13860424, 13860425, 13860427, 13860429
